@@ -91,3 +91,12 @@ A relação com REST é que muitas WEB APIs são projetadas seguindo os princíp
 • HEAD: Recupera apenas os cabeçalhos de resposta.
 • OPTIONS: Verifica os métodos suportados para um recurso.
 • TRACE: Realiza uma mensagem de loop-back de teste para diagnóstico.
+
+Desafio 4
+
+1º) Defina com as suas palavras qual é a responsabilidade das camadas: Entity, Controller, Repository e Service
+
+• Entity é uma das camadas do sistema de arquitetura de software que é responsável por gerenciar e representar os dados de um sistema.
+• Controller é a camada responsável por ligar o Model e o View, fazendo com que os modelos possam ser repassados para as views e vice-versa.
+• Repository permite separar a lógica de acesso a dados da lógica de negócio, proporcionando uma maior flexibilidade e facilidade de manutenção do código.
+• Service ajuda a formar um encapsulamento claro e restrito de código ao implementar tarefas comerciais, cálculos e processos.
