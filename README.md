@@ -58,3 +58,36 @@ Podemos ter uma lista de veículos que inclui os carros e as motos, mesmo que �
 Reutilização de código, modularidade, facilidade de manutenção, a abstração e o polimorfismo.
 
 (Na realidade POO parece um paraíso quando apresentado dessa forma, mas quando você programa em Java você descobre que isso tudo é uma ilusão e não existe nenhuma vantagem, existe apenas dor e quem gosta é masoquista).
+
+Desafio 3
+
+1º) Com suas palavras, defina o que é o protocolo de comunicação HTTP e como ele funciona. (Mínimo 10 linhas)
+
+O HTTP (HyperText Transfer Protocol) é um protocolo de comunicação utilizado para transferir dados na WEB. Funciona sobre o protocolo TCP/IP e define como as mensagens são formatadas e transmitidas entre “Clients” como navegadores e servidores Web. Quando um Client tenta acessar uma página, ele envia uma requisição HTTP ao servidor, especificando o recurso desejado como uma página HTML. O Servidor processa a solicitação e responde com um status e os dados solicitados. O HTTP é um protocolo sem estado, o que significa que cada requisição é independente e não mantém informações sobre solicitações anteriores. 
+A versão mais comum é a HTTP/1.1, mas a 2 e 3 tem melhorias significativas em eficiência e segurança.
+
+2º) Defina o que é REST e qual é a sua relação com o protocolo HTTP.
+
+REST (Representational State Transfer) é um estilo de arquitetura para construir serviços WEB que utilizam o protocolo HTTP para comunicação.
+Em sistemas RESTful, recursos são identificados por URLs e manipulados usando os métodos HTTP:
+• GET para recuperar dados
+• POST para criar novos recursos
+• PUT para atualizar recursos.
+• DELETE para remover recursos.
+As respostas podem ser em formatos JSON ou XML, REST aproveita as funcionalidades padrão do HTTP para criar serviços simples, escaláveis e independentes entre o Client e o Servidor.
+
+3º) Defina o que é Web API, e qual é a sua relação com REST.
+
+Uma WEB API (Interface de Programação de Aplicações na WEB) é um conjunto de regras e protocolos que permite que a comunicação entre diferentes softwares via web. Ela expõe endpoints que podem ser acessados através de requisições HTTP para realizar operações como criar, ler, atualizar e deletar dados.
+A relação com REST é que muitas WEB APIs são projetadas seguindo os princípios RESTful, utilizando métodos HTTP para manipular os recursos identificados por URLs.
+
+4º) Liste todos os métodos de solicitações HTTP utilizados pelo padrão REST e suas respectivas finalidades.
+
+• GET: Recupera informações de um recurso.
+• POST: Cria um novo recurso.
+• PUT: Atualiza um recurso existente.
+• DELETE: Remove um recurso.
+• PATCH: Aplica atualizações parciais a um recurso.
+• HEAD: Recupera apenas os cabeçalhos de resposta.
+• OPTIONS: Verifica os métodos suportados para um recurso.
+• TRACE: Realiza uma mensagem de loop-back de teste para diagnóstico.
