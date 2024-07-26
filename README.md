@@ -119,3 +119,29 @@ A relação com REST é que muitas WEB APIs são projetadas seguindo os princíp
 • Repository permite separar a lógica de acesso a dados da lógica de negócio, proporcionando uma maior flexibilidade e facilidade de manutenção do código.
 
 • Service ajuda a formar um encapsulamento claro e restrito de código ao implementar tarefas comerciais, cálculos e processos.
+
+## Desafio 5
+
+### 1º) O que é um padrão de projeto e porque utilizamos?
+
+Um padrão de objeto é uma solução reutilizavel para problemas comuns no design de um software de POO, esses padrões são utilizados para facilitar a reutilização de códigos, a flexibilidade, manutenção e escalabilidade. além de que ajudam a manter boas práticas de programação, resultando em sistemas mais robustos e fáceis de aprimorar.
+
+### 2º) Explique o conceito de arquitetura de software e seus propósitos.
+
+Arquitetura de Software é a estrutura de um sistema, composta por seus elementos, suas propriedades e o relacionamento entre eles.
+
+Os seus propósitos são: Organização e Estrutura, ajudar a balancear requisitos funcionais e não funcionais, reutilização e manutenção de componentes, gerenciar riscos, garantir que o sistema cumpra os requisitos do usuário e facilitar a comunicação para a equipe de desenvolvimento
+
+### 3º) O que significa SOLID e quais são os seus princípios?
+
+SOLID é um acrônimo de 5 princípios de design de um Software orientado a objeto, os princípios são:
+
+• Single Responsability Principle: uma classe deve ter apenas uma responsabilidade ou motivo para mudar.
+
+• Open/Closed Principle: As entidades de software devem estar abertas para extensão, porém fechadas para modificação.
+
+• Liskov Substitution Principle: Objetos de uma classe derivada devem poder substituir objetos da classe base sem alterar o comportamento esperado do programa.
+
+• Interface Segregation Principle: Uma classe bçai deve ser forçada a implementar interfaces que não usa, ao invés disso, devem se criar interfaces específicas menores.
+
+• Dependency Inversion Principle: Modulos de alto nível não devem depender de módulos de baixo nível, eles devem depender de abstrações, mas as abstrações não devem depender de detalhes e vice-versa. 
